@@ -13,7 +13,7 @@
 	"local_scan": "bool?",
 	"options": [{"name": "str", "value": "str"}]
     },
-    "devices": ["/dev/snd:/dev/snd:rwm"],
+    "audio": true,
     "ports": {"6680/tcp": 6680, "6600/tcp": 6600},
     "map": ["share"],
     "webui": "http://[HOST]:[PORT:6680]",
